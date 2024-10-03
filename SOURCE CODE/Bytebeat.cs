@@ -229,7 +229,7 @@ namespace Nemesis
 
         public Bytebeat7()
         {
-            this.SetWaveFormat(6000, 2); // taxa de amostragem mono
+            this.SetWaveFormat(6000, 2);
         }
 
         public override int Read(float[] buffer, int offset, int sampleCount)
